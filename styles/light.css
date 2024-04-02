@@ -3,19 +3,26 @@
   --text-color : rgba(53, 52, 48, 1);
   --background-color: rgba(255, 141, 203, 1);
   --background-image : url('../images/cover-image-light.png');
-  --display: none;
   --main-text: var(--text-color);
   --main-color: rgba(255, 241, 247, 1);
+  .header__element_theme-dark {
+  display: none;
+  }
 }
+
+
 
 :root.theme-light {
   --title-color: rgba(255, 194, 230, 1);
   --text-color : rgba(53, 52, 48, 1);
   --background-color: rgba(255, 141, 203, 1);
   --background-image : url('../images/cover-image-light.png');
-  --display: none;
   --main-text: var(--text-color);
+  --border-color: rgba(50, 49, 45, 0.4);
   --main-color: rgba(255, 241, 247, 1);
+  .header__element_theme-dark {
+    display: none;
+  }
 }
 
 @media (prefers-color-scheme: light) {
@@ -24,8 +31,11 @@
     --text-color : rgba(53, 52, 48, 1);
     --background-color: rgba(255, 141, 203, 1);
     --background-image : url('../images/cover-image-light.png');
-    --display: none;
     --main-text: var(--text-color);
-     --main-color: rgba(255, 241, 247, 1);
+    --border-color: rgba(50, 49, 45, 0.4);
+    --main-color: rgba(255, 241, 247, 1);
+    .header__element_theme-dark {
+      display: none;
+    }
   }
 }
