@@ -1,9 +1,3 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
 .page.theme_light {
   --title-color: rgba(255, 194, 230, 1);
   --text-color : rgba(53, 52, 48, 1);
@@ -15,7 +9,6 @@
 }
 
 :root.theme-light {
-  /* Переменные светлой темы */
   --title-color: rgba(255, 194, 230, 1);
   --text-color : rgba(53, 52, 48, 1);
   --background-color: rgba(255, 141, 203, 1);
@@ -25,17 +18,14 @@
   --main-color: rgba(255, 241, 247, 1);
 }
 
-/* Остальные стили */
-
 @media (prefers-color-scheme: light) {
-:root {
-      /* Дублируем переменные светлой темы */ 
-      --title-color: rgba(255, 194, 230, 1);
-      --text-color : rgba(53, 52, 48, 1);
-      --background-color: rgba(255, 141, 203, 1);
-      --background-image : url('../images/cover-image-light.png');
-      --display: none;
-      --main-text: var(--text-color);
-      --main-color: rgba(255, 241, 247, 1);
+  :root {
+    --title-color: rgba(255, 194, 230, 1);
+    --text-color : rgba(53, 52, 48, 1);
+    --background-color: rgba(255, 141, 203, 1);
+    --background-image : url('../images/cover-image-light.png');
+    --display: none;
+    --main-text: var(--text-color);
+     --main-color: rgba(255, 241, 247, 1);
   }
 }
