@@ -121,7 +121,7 @@
   justify-self: end;
   margin-inline-end: 20px;
   margin-block-start: 114px;
-  color: rgba(0, 0, 40, 1);
+  color: var(--text-color-dark);
   font-family: var(--font-family);
   font-weight: var(--font-bold);
   font-size: var(--font-size);
@@ -145,7 +145,7 @@
 
 .main__subtitle {
   margin-block-end: 10px;
-  color: rgba(0, 0, 40, 1);
+  color: var(--text-color-dark);
   font-family: var(--font-family);
   font-weight: var(--font-bold);
   font-size: var(--font-size);
@@ -183,7 +183,7 @@
 }
 
 .color__element_theme-dark {
-  color: rgba(0, 0, 40, 1);
+  color: var(--text-color-dark);
 }
 
 .blog-focus {
@@ -227,7 +227,7 @@
 
 .blog-goldfish__subsections {
   margin-block-end: 10px;
-  color: rgba(0, 0, 40, 1);
+  color: var(--text-color-dark);
   font-family: var(--font-family);
   font-weight: var(--font-bold);
   font-size: var(--font-size);

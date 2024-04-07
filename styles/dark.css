@@ -6,9 +6,11 @@
   --main-text: rgba(241, 178, 206, 1);
   --border-color: rgba(255, 0, 112, 0.4);
   --main-color: rgba(0, 0, 40, 1);
-  .header__element_theme-dark {
-    display: flex;
-  }
+  --text-color-dark: rgba(0, 0, 40, 1);
+}
+
+.page.theme_dark .header__element_theme-dark {
+  display: flex;
 }
 
 :root.theme-dark {
@@ -19,7 +21,5 @@
   --main-text: rgba(241, 178, 206, 1);
   --border-color: rgba(255, 0, 112, 0.4);
   --main-color: rgba(0, 0, 40, 1);
-  .header__element_theme-dark {
-    display: flex;
-  }
+  --text-color-dark: rgba(0, 0, 40, 1);
 }
